@@ -1,0 +1,4 @@
+# workbuddy-monitor：WorkBuddy 用量监控面板 + 可选的原生 LLM 供应商挂载。
+- insert:
+    - id: workbuddy-provider
+      name: workbuddy-monitor

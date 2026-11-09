@@ -1,6 +1,6 @@
 {
   "name": "workbuddy-monitor",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "实时监控 WorkBuddy 积分用量与免费用户的 24h 窗口额度：输入框双环徽标 + 设置页面板，支持多账号、每日自动签到与免费/付费识别（附可选直连模型供应商）。",
   "type": "module",
   "main": "lib/host.js",
@@ -41,7 +41,8 @@
       "inject": [
         "@deepseek-ai/dsh-client-ui-settings",
         "@deepseek-ai/dsh-client-connection",
-        "@deepseek-ai/dsh-client-ui-model-selection"
+        "@deepseek-ai/dsh-client-ui-model-selection",
+        "@deepseek-ai/dsh-client-ui-renderer"
       ]
     },
     "compatibility": {
